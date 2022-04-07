@@ -1,0 +1,72 @@
+
+.box{
+    display: flex;
+    flex-direction:column;
+    background-color: #121214;
+    justify-content: center;
+    width: 1350px;
+    height: 610px;
+}
+
+h2{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+figure:hover{
+    transform: scale(1.1);
+}
+
+.box-usuarios{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    width: 700px;
+    margin:0 auto;
+}
+
+.perfis{
+    display: flex;
+    color:white;
+    width:160px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.perfis figure{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfis figcaption{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    background-color:transparent;
+    color:white;
+    margin:0 auto;
+    margin-top: 40px;
+}
+
+input:hover{
+    background-color: white;
+    color:#121214;
+}
